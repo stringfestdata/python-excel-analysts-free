@@ -1,4 +1,9 @@
-# Python in Excel for Analysts: The Free Sessions
+# Python in Excel for Analysts: The Free Sessions\
+
+## Development status
+
+> **These materials are still in development.** Files, examples, code, pacing, and folder contents may change as the sessions are finalized and delivered. If you're using anything here before the corresponding live session has taken place, treat it as a working draft and proceed accordingly.
+
 
 Four free live sessions on Python in Excel, built around the book **[Python in Excel for Data Analytics](https://stringfestanalytics.com/pyxlda/)** (Packt) by George Mount. Recordings, workbooks and code for every session are posted, free, at **[Python in Excel for Analysts: The Free Sessions on Gumroad](https://stringfestdata.gumroad.com/l/pxlaf)**. Live dates and registration: [stringfestanalytics.com/events](https://stringfestanalytics.com/events).
 
@@ -9,21 +14,10 @@ Four free live sessions on Python in Excel, built around the book **[Python in E
 | 3 | [Python in Excel: From trendline to real forecast](s3-trendline-to-forecast/) | 45 min | A statistical test, a regression, and a seasonal forecast, and how to tell if they're any good. |
 | 4 | [Python in Excel: 10,000 what-ifs](s4-ten-thousand-what-ifs/) | 45 min | Monte Carlo simulation, worksheet cells that drive Python, and comparing decisions on the same futures. |
 
-## What's in each session folder
-
-| File | Use it for |
-|---|---|
-| `follow-along.xlsx` | Open this during the session. Code is printed on the left; type each block into a PY() cell in column E and let it spill. Data tabs are named Excel tables. |
-| `solution.xlsx` | Every code block in run order plus the same data tabs. Dry-run or check your work. |
-| `slides.pptx` | The deck, with the full speaker script in the notes. |
-| `run-of-show.md` | Minute-by-minute plan and links. |
-| `eventbrite-description.md` | The event listing copy. |
 
 ## Pacing (these are coding novices, and we type everything together)
 Every session is 45 minutes and every cell is typed together: 7 to 9 short cells per session, one idea each, almost all 1 to 6 lines, about 3 to 4 minutes per cell including the run and the look. Nothing is demo-only and there is no AI or Copilot content in any session. The book has everything we cut, and each deck ends with a "what else is in the book" slide that says so. If a session runs long, drop the last cell of the current part, never the close (the close carries the book teaser, the book, and the free-sessions link).
 
-## Before you start
-Read `setup-guide.md`: which Excel versions have Python in Excel, how to check, and the three shortcuts you'll use every day (Ctrl+Alt+Shift+P to insert a Python cell, Ctrl+Enter to run, Ctrl+Alt+Shift+M to spill a result into the grid).
 
 ## Where to go next
 - **The book**, for the how and the why behind every technique: https://stringfestanalytics.com/pyxlda/
