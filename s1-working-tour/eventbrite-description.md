@@ -16,15 +16,15 @@ We'll walk through 3 parts drawn from my book, *Python in Excel for Data Analyti
 
 #### **Your first Python cell**
 
-hello, world; reference the object from C3; the ordering error.
+How a Python cell works in a workbook: three ways to start one, how to run it, and the one rule about where a cell can sit that trips up everybody on day one.
 
 #### **Your first DataFrame**
 
-load a table into a DataFrame; a bigger table: sales_df.head(); descriptive statistics in one line; the PivotTable in one line.
+The move you will make in every workbook from now on: point Python at an Excel table, get a DataFrame back, look at the first rows, summarise every numeric column in one line, and write the equivalent of a PivotTable as a single line of code.
 
 #### **Two things Excel couldn't do last year**
 
-small multiples in one line; 10,000 futures: a Monte Carlo profit histogram.
+Two payoffs to finish on. One line that draws a small multiple, a panel per group with shared axes. Then a six line cell that simulates ten thousand possible outcomes for a business decision and charts the result.
 
 The focus is not just on how the code works, but when it's worth reaching for and what Excel problem it solves.
 

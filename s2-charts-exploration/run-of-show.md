@@ -1,12 +1,12 @@
-# Session 2: Python in Excel: Charts and exploration Excel can't do alone
+# Session 2: Python in Excel: Charts and exploration with seaborn
 
-45 minutes. Get a Python chart out of the cell, then make five more Excel can't.
+45 minutes. Your first seaborn chart, then five more, one line of code each.
 
 | Time | Part | Steps |
 |---|---|---|
 | 0:00 | Welcome, what we'll do, housekeeping (4 min) | recorded; files at Gumroad; questions in chat |
 | 0:04 | Your first seaborn chart, and getting it out of the cell (8 min) | 1.1 Load the table and draw a bar chart; 1.2 Title and axis labels |
-| 0:12 | Charts Excel doesn't have (13 min) | 2.0 A histogram in one line; 2.2 Box plots by group; 2.3 Scatterplot with a colour for each group; 2.4 Correlation heatmap with the numbers on it |
+| 0:12 | Five charts, one line each (13 min) | 2.0 A histogram in one line; 2.2 Box plots by group; 2.3 Scatterplot with a colour for each group; 2.4 Correlation heatmap with the numbers on it |
 | 0:25 | One grid of charts (6 min) | 2.5 Small multiples with FacetGrid |
 | 0:31 | What it can't do (yet), recap, the book, next session, Q&A (8 min) | close |
 | 0:39 | Buffer / extra Q&A (6 min) | |

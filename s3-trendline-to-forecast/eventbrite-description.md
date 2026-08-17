@@ -16,15 +16,15 @@ We'll walk through 3 parts drawn from my book, *Python in Excel for Data Analyti
 
 #### **Is the difference real? One t-test**
 
-describe mpg by origin; the t-test, with results in the grid.
+Average fuel economy by region, then the question a chart cannot answer: is the gap between two groups real, or is it noise? One t-test, with the result placed in the grid as a small table.
 
 #### **From trendline to a model you can read**
 
-load the penguins and drop incomplete rows; look first: regplot; fit the line and read the coefficient table.
+A trendline you already know how to add, then the model behind it: fit it properly, and read the coefficient table so you can say what the relationship actually is and how confident you should be.
 
 #### **A forecast you can see inside**
 
-make the date the index; decompose: trend, season, residual; holt-Winters: fit and forecast 24 months.
+Monthly airline passengers, 1949 to 1960. Make the date the index, split the series into trend, season and leftover noise so you can see its structure, then fit a seasonal model and forecast the next twenty four months.
 
 The focus is not just on how the code works, but when it's worth reaching for and what Excel problem it solves.
 

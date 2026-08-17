@@ -16,15 +16,15 @@ We'll walk through 3 parts drawn from my book, *Python in Excel for Data Analyti
 
 #### **10,000 what-ifs: Monte Carlo in one cell**
 
-the profit model: demand in, profit out; the whole distribution: a histogram with mean and break-even lines; any 'how often' question is one line.
+A profit model with uncertain demand, run ten thousand times in one cell. The histogram of outcomes, and how to answer a how often question in one line.
 
 #### **Python that a manager can use: input cells and dropdowns**
 
-a moving average over a noisy daily series; let a worksheet cell drive the window.
+A moving average over a noisy daily series, then the version a colleague can actually use: the window comes from a worksheet cell, so anyone can change it and re run the chart without touching code.
 
 #### **Which decision? Percentiles and a comparison**
 
-percentiles for planning; which decision? Compare two inventory levels.
+From what could happen to what should we do. Percentiles for planning, then two order sizes compared on exactly the same ten thousand futures.
 
 The focus is not just on how the code works, but when it's worth reaching for and what Excel problem it solves.
 

@@ -16,15 +16,15 @@ We'll walk through 3 parts drawn from my book, *Python in Excel for Data Analyti
 
 #### **Your first Python cell**
 
-hello, world; reference the object from C3; the ordering error.
+How a Python cell works in a workbook: three ways to start one, how to run it, and the one rule about where a cell can sit that trips up everybody on day one.
 
 #### **Your first DataFrame**
 
-load a table into a DataFrame; a bigger table: sales_df.head(); descriptive statistics in one line; the PivotTable in one line.
+The move you will make in every workbook from now on: point Python at an Excel table, get a DataFrame back, look at the first rows, summarise every numeric column in one line, and write the equivalent of a PivotTable as a single line of code.
 
 #### **Two things Excel couldn't do last year**
 
-small multiples in one line; 10,000 futures: a Monte Carlo profit histogram.
+Two payoffs to finish on. One line that draws a small multiple, a panel per group with shared axes. Then a six line cell that simulates ten thousand possible outcomes for a business decision and charts the result.
 
 The focus is not just on how the code works, but when it's worth reaching for and what Excel problem it solves.
 
@@ -95,13 +95,13 @@ To keep the session focused and useful:
 Toward the end, I'll show what else is in the book, briefly mention the course, and take questions.
 
 If you're actively working in Excel and curious whether Python in Excel is worth your time, you'll likely get value from this session.
-# Python in Excel: Charts and exploration Excel can't do alone
+# Python in Excel: Charts and exploration with seaborn
 
-_Cover tagline: Six charts Excel can't draw alone_
+_Cover tagline: Six seaborn charts, one line each_
 
-Charts Excel doesn't have, drawn in a cell. A free live, type-along session on seaborn inside Python in Excel.
+A chart in one line, drawn inside the grid. A free live, type-along session on seaborn inside Python in Excel.
 
-**Python in Excel: Charts and exploration Excel can't do alone** is a short live session for professionals who work in Excel every day and want to see, concretely, what Python inside Excel changes for them.
+**Python in Excel: Charts and exploration with seaborn** is a short live session for professionals who work in Excel every day and want to see, concretely, what Python inside Excel changes for them.
 
 This is not a full course. It's a practical live walk-through of a few things Python in Excel does well, on real datasets, with an honest note about what it doesn't do yet. No Python experience is needed; if you've never opened a Python cell, the first minutes catch you up.
 
@@ -113,15 +113,15 @@ We'll walk through 3 parts drawn from my book, *Python in Excel for Data Analyti
 
 #### **Your first seaborn chart, and getting it out of the cell**
 
-load the table and draw a bar chart; title and axis labels.
+Your first seaborn chart, and the workflow that matters more than any chart: how to get the picture out of the cell and onto the sheet at a size people can read, then add a title and axis labels.
 
-#### **Charts Excel doesn't have**
+#### **Five charts, one line each**
 
-a histogram in one line; box plots by group; scatterplot with a colour for each group; correlation heatmap with the numbers on it.
+Four more charts, one line of code each: a histogram where you control the bins, box plots straight from a category column, a scatter coloured by group, and a correlation heatmap with the numbers printed on it.
 
 #### **One grid of charts**
 
-small multiples with FacetGrid.
+Small multiples: the same chart repeated once per group, with shared axes, in two lines. It is the chart that makes comparison easy, and the one that takes the longest to build by hand.
 
 The focus is not just on how the code works, but when it's worth reaching for and what Excel problem it solves.
 
@@ -210,15 +210,15 @@ We'll walk through 3 parts drawn from my book, *Python in Excel for Data Analyti
 
 #### **Is the difference real? One t-test**
 
-describe mpg by origin; the t-test, with results in the grid.
+Average fuel economy by region, then the question a chart cannot answer: is the gap between two groups real, or is it noise? One t-test, with the result placed in the grid as a small table.
 
 #### **From trendline to a model you can read**
 
-load the penguins and drop incomplete rows; look first: regplot; fit the line and read the coefficient table.
+A trendline you already know how to add, then the model behind it: fit it properly, and read the coefficient table so you can say what the relationship actually is and how confident you should be.
 
 #### **A forecast you can see inside**
 
-make the date the index; decompose: trend, season, residual; holt-Winters: fit and forecast 24 months.
+Monthly airline passengers, 1949 to 1960. Make the date the index, split the series into trend, season and leftover noise so you can see its structure, then fit a seasonal model and forecast the next twenty four months.
 
 The focus is not just on how the code works, but when it's worth reaching for and what Excel problem it solves.
 
@@ -307,15 +307,15 @@ We'll walk through 3 parts drawn from my book, *Python in Excel for Data Analyti
 
 #### **10,000 what-ifs: Monte Carlo in one cell**
 
-the profit model: demand in, profit out; the whole distribution: a histogram with mean and break-even lines; any 'how often' question is one line.
+A profit model with uncertain demand, run ten thousand times in one cell. The histogram of outcomes, and how to answer a how often question in one line.
 
 #### **Python that a manager can use: input cells and dropdowns**
 
-a moving average over a noisy daily series; let a worksheet cell drive the window.
+A moving average over a noisy daily series, then the version a colleague can actually use: the window comes from a worksheet cell, so anyone can change it and re run the chart without touching code.
 
 #### **Which decision? Percentiles and a comparison**
 
-percentiles for planning; which decision? Compare two inventory levels.
+From what could happen to what should we do. Percentiles for planning, then two order sizes compared on exactly the same ten thousand futures.
 
 The focus is not just on how the code works, but when it's worth reaching for and what Excel problem it solves.
 

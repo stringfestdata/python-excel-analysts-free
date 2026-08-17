@@ -1,10 +1,10 @@
-# Python in Excel: Charts and exploration Excel can't do alone
+# Python in Excel: Charts and exploration with seaborn
 
-_Cover tagline: Six charts Excel can't draw alone_
+_Cover tagline: Six seaborn charts, one line each_
 
-Charts Excel doesn't have, drawn in a cell. A free live, type-along session on seaborn inside Python in Excel.
+A chart in one line, drawn inside the grid. A free live, type-along session on seaborn inside Python in Excel.
 
-**Python in Excel: Charts and exploration Excel can't do alone** is a short live session for professionals who work in Excel every day and want to see, concretely, what Python inside Excel changes for them.
+**Python in Excel: Charts and exploration with seaborn** is a short live session for professionals who work in Excel every day and want to see, concretely, what Python inside Excel changes for them.
 
 This is not a full course. It's a practical live walk-through of a few things Python in Excel does well, on real datasets, with an honest note about what it doesn't do yet. No Python experience is needed; if you've never opened a Python cell, the first minutes catch you up.
 
@@ -16,15 +16,15 @@ We'll walk through 3 parts drawn from my book, *Python in Excel for Data Analyti
 
 #### **Your first seaborn chart, and getting it out of the cell**
 
-load the table and draw a bar chart; title and axis labels.
+Your first seaborn chart, and the workflow that matters more than any chart: how to get the picture out of the cell and onto the sheet at a size people can read, then add a title and axis labels.
 
-#### **Charts Excel doesn't have**
+#### **Five charts, one line each**
 
-a histogram in one line; box plots by group; scatterplot with a colour for each group; correlation heatmap with the numbers on it.
+Four more charts, one line of code each: a histogram where you control the bins, box plots straight from a category column, a scatter coloured by group, and a correlation heatmap with the numbers printed on it.
 
 #### **One grid of charts**
 
-small multiples with FacetGrid.
+Small multiples: the same chart repeated once per group, with shared axes, in two lines. It is the chart that makes comparison easy, and the one that takes the longest to build by hand.
 
 The focus is not just on how the code works, but when it's worth reaching for and what Excel problem it solves.
 
